@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #071826 45%, #018dc7 );
+}
+
+.container {
+    background-image: linear-gradient(to right, #081b29 60%, #081b29);
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 25px;
+}
+
+nav {  
+    font-size: 20px; 
+    width: 85%; 
+    margin: 0px auto;
+    color: white;
+    display: flex;
+    margin: 0px auto;
+    
+}
+nav h1 {
+    margin-top: 15px;
+    width: 90%;
+}
+
+nav ul {
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    color: #018dc7;
+    border-bottom: 3px solid #018dc7;
+}
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    font-family: verdana;
+    width: 85%;
+    margin: 150px 0px 0px 120px;
+}
+
+.visualizar {
+    display: flex;
+    justify-content: center
+}
+.visualizar ul {
+    list-style-type: none;
+    margin: 40px 0px;
+}
+.visualizar a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: #018dc7;
+    padding: 15px;
+    border-radius: 15px;
+}
+.visualizar a:hover {
+    background-color: black;
+    color: #018dc7;
+}
+
+.conversao {
+    border-radius: 10px;
+    padding: 10px;
+    border: 4px solid #018dc7;
+    color: white;
+    width: 500px;
+}
+.conversao h1 {
+    margin-top: 5px;
+    text-align: center;
+}
+.conversao p {
+    margin-top: 10px;
+    text-align: justify;
+}
+.conversao img {
+    width: 500px;
+    height: 300px;
+}
+
+.portifolio {
+    border-radius: 10px;
+    padding: 10px;
+    border: 4px solid #018dc7;
+    color: white;
+    width: 500px;
+}
+.portifolio img {
+    width: 500px;
+    height: 300px;
+}
+.portifolio h1 {
+    margin-top: 5px;
+    text-align: center;
+}
+.portifolio p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.padaria {
+    border-radius: 10px;
+    padding: 10px;
+    border: 4px solid #018dc7;
+    color: white;
+    width: 500px;
+}
+.padaria img {
+    width: 500px;
+    height: 300px;
+}
+.padaria h1 {
+    margin-top: 5px;
+    text-align: center;
+}
+.padaria p {
+    margin-top: 10px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 80px;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 110px;
+}
+
+footer img {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
